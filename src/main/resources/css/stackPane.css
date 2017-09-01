@@ -1,0 +1,9 @@
+.top {
+    -fx-background-color: #E6EB10;
+}
+
+.text {
+    -fx-font-size: 20px;
+        -fx-font-family: "Tahoma";
+        -fx-font-weight: normal;
+}

@@ -1,0 +1,13 @@
+<?import java.net.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane styleClass="top">
+
+    <stylesheets>
+        <URL value="@css/stackPane.css" />
+    </stylesheets>
+
+    <Text styleClass="text" text="ETERNAL MACHINE"/>
+
+</StackPane>

@@ -1,0 +1,33 @@
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox spacing="10">
+
+    <stylesheets>
+        <URL value="@css/middle.css" />
+    </stylesheets>
+
+    <VBox HBox.hgrow="ALWAYS" styleClass="top1" alignment="CENTER">
+
+        <Text styleClass="text1" text="ETERNAL MACHINE"/>
+
+        <StackPane styleClass="innerStack">
+
+            <padding><Insets top="30" right="30" bottom="30" left="30"/></padding>
+
+            <Text text="test"/>
+
+        </StackPane>
+
+    </VBox>
+
+    <VBox HBox.hgrow="ALWAYS" styleClass="top1" alignment="CENTER">
+
+        <Text styleClass="text1" text="ETERNAL MACHINE"/>
+
+    </VBox>
+
+</HBox>

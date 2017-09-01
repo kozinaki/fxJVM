@@ -1,0 +1,34 @@
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.textfield.*?>
+<?import javafx.geometry.*?>
+
+<HBox spacing="10">
+
+    <stylesheets>
+        <URL value="@css/bottom.css" />
+    </stylesheets>
+
+    <FlowPane hgap="5" vgap="5" prefHeight="50" prefWidth="50" orientation="vertical">
+
+        <Button text="btn1"/>
+
+        <Button text="btn2"/>
+
+        <Button text="btn3"/>
+
+        <Button text="btn4"/>
+
+    </FlowPane>
+
+    <StackPane HBox.hgrow="ALWAYS" styleClass="innerStack2">
+
+        <Text text="test222"/>
+
+    </StackPane>
+
+</HBox>
