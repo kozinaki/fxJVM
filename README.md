@@ -1,2 +1,2 @@
 # fxJVM
-build automation tool
+fx for jvm
